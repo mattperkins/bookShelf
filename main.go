@@ -4,6 +4,10 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
+
+	"database/sql"
+	_ "github.com/lib/pq"
+	// _ denotes package not explicitly used in this file
 )
 
 type Page struct {
