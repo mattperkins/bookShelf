@@ -1,3 +1,8 @@
+# 3rd Party Libs
+```
+go get github.com/lib/pq
+```
+
 # RUN
 ```
 go run main.go
